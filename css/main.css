@@ -1,0 +1,208 @@
+/*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/*outline*/
+input,
+button,
+textarea, 
+a {
+  outline: none;
+}
+/********/
+
+/*Iphone hack - no font resize*/
+div,
+span,
+a,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+td,
+input,
+textarea,
+button {
+  -webkit-text-size-adjust: none;
+  -o-text-size-adjust: none;
+  -moz--text-size-adjust: none;
+  -webkit-text-size-adjust: none;
+  -ms-text-size-adjust: none;
+  text-size-adjust: none;
+  max-height: 999999px;
+}
+input[type=text],
+input[type=password],
+input[type=submit],
+textarea {
+  -webkit-appearance: none !important;
+}
+/******************************/
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+.one {
+background: yellow;
+}
+.two {
+  background: green;
+}
+.section {
+  position: relative;
+  overflow: hidden;
+  padding-top: 1px;
+}
+.slider {
+  height: 300px;
+}
+/* .block {
+  height: 215px;
+  overflow: hidden;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: #fff;
+  opacity: .2;
+  -webkit-transition: opacity 0.6s;
+  -o-transition: opacity 0.6s;
+  transition: opacity 0.6s;
+  line-height: 1.23; 
+  font-size: 0.68rem; 
+  letter-spacing: normal;
+  width: 42%;
+  display: inline-block;
+}
+.photo {
+  display: block;
+  min-width: 100%;
+  height: auto;
+}
+ */
+ .comment-title-line {
+  display: table;
+  width: 100%;
+ }
+ .comment-title {
+  display: table-cell;
+ }
+ .date {
+  display: table-cell;
+ }
+ .ava {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: table-cell;
+ }
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+.content-margin {
+  /*margin-top: 50px;*/
+}
+
+
+
+
+/* ==========================================================================
+   Обновление
+   ========================================================================== */
+
+
